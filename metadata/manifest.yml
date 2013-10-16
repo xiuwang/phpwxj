@@ -1,5 +1,5 @@
 ---
-Name: php
+Name: phpwxj
 Cartridge-Short-Name: PHP
 Display-Name: PHP 5.3
 Description: ! 'PHP is a general-purpose server-side scripting language originally
@@ -12,7 +12,7 @@ Vendor: php.net
 Cartridge-Version: 0.0.6
 Compatible-Versions:
 - 0.0.5
-Cartridge-Vendor: redhat
+Cartridge-Vendor: wxj
 Categories:
 - service
 - php
@@ -88,3 +88,13 @@ Endpoints:
     Backend: ''
     Options:
       health: true
+
+Install-Build-Required: false
+#Source-Url: file:///root/cperlv2cart//root/test/cperlv2cart
+##Source-Url: file:///root/wxjphp/
+##Source-Md5: d916798a7e218f12b476bf1dee645f9d
+##Source-Url: https://github.com/xiuwang/phpwxj/raw/master/phpwxj.tar.gz
+##Source-Url: https://github.com/xiuwang/phpwxj/raw/master/phpwxj.zip
+#Source-Url: https://github.com/xiuwang/phpwxj.git
+##Source-Url: https://github.com/xiuwang/nodyphp.git
+##Source-Url: git://github.com/xiuwang/phpwxj.git
